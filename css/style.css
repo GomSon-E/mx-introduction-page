@@ -71,3 +71,17 @@ header nav {
 #lang>li>a:hover {
   font-weight: bolder;
 }
+
+/* article */
+article {
+  padding-bottom: 50px;
+}
+
+/* box01 */
+#box01 {
+  background-color: #000;
+  text-align: center;
+}
+#box01>img {
+  height: 750px;
+}
