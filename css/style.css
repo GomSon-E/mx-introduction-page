@@ -1,0 +1,73 @@
+.hide {
+  width: 0; height: 0;
+  font-size: 0; line-height: 0;
+  position: absolute;
+  visibility: hidden;
+}
+
+body {
+  font: 18px '나눔고딕', sans-serif
+}
+
+/* header */
+header {
+  background-color: #000;
+  padding: 50px;
+  overflow: hidden;
+}
+header>div#header-wrap {
+  margin: 0 auto;
+}
+header h1 {
+  float: left;
+}
+header img {
+  width: 250px;
+}
+header nav {
+  float: right;
+  padding-top: 200px;
+  position: relative;
+}
+
+/* nav #gnb */
+#gnb>li {
+  display: inline-block;
+  width: 170px;
+  text-align: center;
+  border-left: 1px solid #FFF;
+}
+#gnb>li:first-child {
+  border-left: none;
+}
+#gnb>li>a {
+  font-size: 30px;
+  line-height: 40px;
+  color: #FFF;
+}
+#gnb>li>a:hover {
+  font-weight: bolder;
+}
+
+/* nav #lang */
+#lang {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+#lang>li {
+  display: inline-block;
+  width: 70px;
+  text-align: center;
+}
+#lang>li:first-child {
+  border-right: 1px solid #FFF;
+}
+#lang>li>a {
+  font-size: 25px;
+  line-height: 30px;
+  color: #FFF;
+}
+#lang>li>a:hover {
+  font-weight: bolder;
+}
