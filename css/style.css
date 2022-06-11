@@ -6,7 +6,9 @@
 }
 
 body {
-  font: 18px '나눔고딕', sans-serif
+  background-color: #000;
+  font: 18px '나눔고딕', sans-serif;
+  color: #FFF;
 }
 
 /* header */
@@ -74,14 +76,54 @@ header nav {
 
 /* article */
 article {
-  padding-bottom: 50px;
+  padding-bottom: 25px;
 }
 
 /* box01 */
 #box01 {
-  background-color: #000;
   text-align: center;
 }
 #box01>img {
   height: 750px;
 }
+
+/* box02 */
+#box02 {
+  width: 940px;
+  padding-left: 290px;
+}
+#box02>h3 {
+  margin: 0 0 25px 20px;
+  font-size: 90px;
+  font-weight: bolder;
+}
+#box02>p, dl {
+  margin: 0 0 25px 30px;
+  border-left: 5px solid #ff4d00;
+  padding-left: 20px;
+  font-size: 15px;
+}
+#box02>dl>dt {
+  display: inline-block;
+  margin-right: 5px;
+}
+#box02>dl>dd {
+  display: inline-block;
+  margin-right: 20px;
+}
+#box02>dl>dd>span {
+  margin-right: 10px;
+  padding: 0 5px;
+}
+#box02>dl>dd>span:first-child {
+  background-color: #288BA0;
+}
+#box02>dl>dd>span:nth-child(2){
+  background-color: #00008B;
+}
+#box02>dl>dd>span:nth-child(3){
+  background-color: #B5008C;
+}
+
+
+
